@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<title>Columbus, GA Disc Golf Club</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">  
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+
+	<div id="logo"><img id="logo-image" src="logo.png"></div>
+
+		<div id="top-section">
+		<div id="event-link">
+				<a href="events.html">Never Miss An Event</a>
+			</div>
+			<div id="disc"><img src="disc.png"></div>
+			<div id="header-text"><h1>Columbus GA Disc Golf Club</h1></div>
+			
+		</div>
+
+		<div id="all-content">
+			<div id="basket"><img src="basket.png"></div>
+			<!-- <div id="tag"><img src="tag.png"></div> -->
+
+			<div id="section-3">
+				<div id="interested">
+					<h1>New To Disc Golf?</h1>
+					<h3>Here are some resources.</h3>
+					<ul>
+						<a target="_blank" href="http://www.pdga.com/rules/official-rules-disc-golf"><li>Official Rules of Disc Golf</li></a>
+						<a target="_blank" href="http://www.dgcoursereview.com/"><li>Disc Golf Course Reviews</li></a>
+						<a target="_blank" href="https://www.discgolfscene.com/"><li>Find Disc Golf Tournaments and Clubs</li></a>
+					</ul>
+				</div>
+			</div>
+
+			<div id="section-1">
+				<h1>History Of Disc Golf Growth In Columbus</h1>
+				<div class="" id="flatrock-history">
+					<p>
+						In 2009 Jody Mitchell, Jayson Camper and Nick Wrenn started the process 
+						with the city to design build a 
+						disc golf course at Flatrock.  In September 2010 the course was completed and
+						 the sport has grown in 
+						Columbus ever since.  Flat Rock Park is an 18 hole course with 3 pin
+						 placements for each hole and pars 
+						ranging from 3 to 5.  The course is playable in all seasons and has a range of
+						 holes that challenge players 
+						with elevation change, wooded fairways, rock formations, Mandos, etc.  There are 
+						now 4 other courses 
+						in the area; Dinglewood park (nice wooded 9 hole, par 3), The River Course (18 
+						hole course on the 
+						Phenix city riverbank) Aflac Course (private course for employees with 9 holes) 
+						and Russ Pond (9 hole 
+						par 3 on Ft Benning).
+					</p>
+
+
+				</div>
+			</div>
+			<div id="section-2">
+				<h1>Compete For Tags</h1>
+				<div id="tag-explanation">
+					<p>
+						Every year the club sells Bag Tags.  By purchasing the Tag you become an official member of the 
+						Columbus GA Disc Golf Club for that year.  The tags are meant to be attached to player's bags and are played for throughout the year. They can be played for in casual play, organized events, tournaments, 
+						etc. Tag play is not limited to Flat Rock.  Tags can be played for at any course whether in Columbus or not. Most tag play happens in rounds with a group of players but members may also issue a challenge to another player with a lower tag and the challenged player shoulbased on score, lowest tag goes to the lowest score.  In case of a tie the person with the lowest tag coming into the round takes the lowest tag. 
+					</p>
+				</div>
+				<div id="tag-image"><img src="tags.jpg"></div>
+			</div>
+
+			<div id="section-4">
+				<h1>CGDGC Board Members</h1>
+				<ul>
+					<li>President - Jerremy Crutcher</li>
+					<li>Vice President - David Goldberg</li>
+					<li>Treasurer - Jody Mitchell </li>
+					<li>Secretary - Will Borin</li>
+					<li>Public Relations - Matt Hodges</li>
+				</ul>
+				<p>Interested in getting involved with the club?<a target="_blank" href="https://www.facebook.com/groups/columbusdiscgolf/">CLICK HERE!</a></p>
+			</div>
+
+			<div id="section-5">
+				<h1>CGDGC Sponsor</h1>
+				<a target="_blank" href="https://www.facebook.com/ChatValDiscGolf/">ChatVal Disc Golf</a>
+				<div id="sponsor"><img id="sponsor-image" src="sponsor.png"></div>
+				
+				<p>CVDG is the official 2017 tag sponsor for the Columbus, GA Disc Golf Club. They are a local vendor who provides disc golf supplies to the Chattahoochee Valley area.</p>
+			</div>
+
+			<div id="section-6">
+				
+			</div>
+
+		</div>
+
+
+	</body>
+
+	<script type="text/javascript">
+		
+
+	</script>
+
+	<script type="text/javascript">
+
+	var windowWidth = $(window).width();
+	var windowHeight = $(window).height();
+		
+		$(document).ready(function(){
+			$("#all-content").css({"margin-top": windowHeight + "px"});		
+
+		});
+		
+		$(window).scroll(function() {
+
+			$("#disc").children("img").css({"margin-left": -200 + $(document).scrollTop()*3 + "px", "-webkit-transform": "rotate(" + $(document).scrollTop()*3 + "deg)"});
+
+			$("#header-text").css({"opacity": 1 - ($(document).scrollTop() * 0.0035)});
+			$("#event-link").css({"opacity": 1 - ($(document).scrollTop() * 0.0035)});
+
+			if($(document).scrollTop() > windowHeight){
+				$("#logo-image").css({"display": "block"});
+				$("#logo-image").animate({"opacity": 1}, 500);
+				$("#header-text").css({"display":"none"});
+			}else{
+				$("#header-text").css({"display":"block"});
+			}
+
+		});
+			
+
+	</script>
+</html>
