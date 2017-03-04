@@ -128,10 +128,7 @@
 }
 #section-3 ul{
 	list-style: none;
-	/*background-color: rgba(255,255,255,0.2);*/
 	display: inline-block;
-	/*padding: 20px;
-	border-radius: 20px;*/
 }
 #section-3 li{
 	background-color: #68717a;
@@ -233,7 +230,6 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
 	right: 0;
 	margin-top: 10px;
 	margin-right: 20px;
-	/*background-color: rgba(0,0,0,0.5);*/
 	background-color: rgba(104, 113, 122, 0.7);
 	padding: 15px;
 	border-radius: 10px;
